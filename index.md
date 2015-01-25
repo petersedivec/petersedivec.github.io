@@ -7,7 +7,7 @@ framework   : io2012   # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap]   # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+mode        : standalone # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
@@ -45,11 +45,11 @@ look at the overview of the four diets:
 ```
 
 ```
-##   Diet count aveStartWeight aveEndWeight avePerGrowth
-## 1    1    20           41.0       157.95     283.8922
-## 2    2    10           40.7       215.60     433.8726
-## 3    3    10           40.8       271.90     564.8950
-## 4    4    10           41.0       229.90     462.8298
+## Error in eval(expr, envir, enclos): could not find function "ddply"
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "ddply"
 ```
 
 ---
@@ -57,7 +57,14 @@ look at the overview of the four diets:
 ## App Results
 Sample, illustrative results shown below
 
-![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png) 
+
+```
+## Error in eval(expr, envir, enclos): could not find function "ggplot"
+```
+
+```
+## Error in print(p): object 'p' not found
+```
 
 ---
 
